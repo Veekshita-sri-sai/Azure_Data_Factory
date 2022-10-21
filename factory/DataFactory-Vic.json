@@ -1,0 +1,9 @@
+{
+	"name": "DataFactory-Vic",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f635c35-5951-4f8b-8115-366461e5cb11",
+		"tenantId": "6a18aa3b-da43-440b-97ef-10a61695155e"
+	}
+}
