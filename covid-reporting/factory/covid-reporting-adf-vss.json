@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-vss",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d65f06a5-14f6-48ce-82c0-c393e310ecc3",
+		"tenantId": "12f933b3-3d61-4b19-9a4d-689021de8cc9"
+	}
+}
