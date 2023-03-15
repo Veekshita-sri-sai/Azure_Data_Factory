@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/tahsiniqbal98/Covid-19-Data-Analysis-Azure-Data-Factory/tree/main/raw_files/ecdc/cases_deaths",
+			"url": "https://github.com/tahsiniqbal98/Covid-19-Data-Analysis-Azure-Data-Factory/blob/main/raw_files/ecdc/cases_deaths/cases_deaths.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
