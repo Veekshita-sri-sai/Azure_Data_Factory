@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reporting-adf-vss"
+		},
+		"ls_ablob_covidreportingsavss_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdlvss_accountKey": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdlvss_properties_typeProperties_url": {
+			"value": "https://covidreportingdlvss.dfs.core.windows.net/"
+		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/cloudboxacademy/covid19/main/ecdc_data/cases_deaths.csv"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/999b1581-3949-48a7-9373-e2894f9bd6a0/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingsavss"
+		}
+	}
+}
